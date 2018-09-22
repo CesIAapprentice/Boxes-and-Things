@@ -4,11 +4,17 @@ public class Box implements ToBeStored{
 	
     private double maximumWeight;
     private ArrayList<ToBeStored> content;
+    
+// -----------------------------------------------------------------
+// CONSTRUCTOR    
 
     public Box(double maximumWeight) {
         this.maximumWeight = maximumWeight;
         this.content = new ArrayList<ToBeStored>();
     }
+    
+// -----------------------------------------------------------------
+// METHODS    
     
     public void add(ToBeStored something){
         if(this.weight() + something.weight() <= this.maximumWeight){

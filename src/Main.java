@@ -1,8 +1,5 @@
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Box littlebox = new Box(10);
@@ -25,6 +22,4 @@ public class Main {
         
         System.out.println(bigBox);
     }
-    
 }
-

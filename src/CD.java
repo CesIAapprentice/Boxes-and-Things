@@ -3,12 +3,18 @@ public class CD implements ToBeStored{
     private String artist;
     private String title;
     private int year;
+    
+// -----------------------------------------------------------------
+// CONSTRUCTOR 
 
     public CD(String artist, String title, int year) {
         this.artist = artist;
         this.title = title;
         this.year = year;
     }
+    
+// -----------------------------------------------------------------
+// METHODS       
 
     public String getArtist() {
         return artist;
@@ -32,4 +38,3 @@ public class CD implements ToBeStored{
         return this.artist + ": " + this.title + " (" + this.year + ")";
     }
 }
-
