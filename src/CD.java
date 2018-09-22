@@ -33,6 +33,9 @@ public class CD implements ToBeStored{
         return 0.1;
     }
     
+// -----------------------------------------------------------------
+// TOSTRING       
+    
     @Override
     public String toString(){
         return this.artist + ": " + this.title + " (" + this.year + ")";

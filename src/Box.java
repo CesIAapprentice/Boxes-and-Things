@@ -31,6 +31,9 @@ public class Box implements ToBeStored{
         }
         return weight;
     }
+    
+// -----------------------------------------------------------------
+// TOSTRING     
 
     @Override
     public String toString(){
