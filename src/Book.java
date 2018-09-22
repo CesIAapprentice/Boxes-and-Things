@@ -9,9 +9,9 @@ public class Book implements ToBeStored{
 // CONSTRUCTOR 
 
 	public Book(String writer, String name, double weight) {
-	this.writer = writer;
-	this.name = name;
-	this.weight = weight;
+		this.writer = writer;
+		this.name = name;
+		this.weight = weight;
 	}
 	
 // -----------------------------------------------------------------
